@@ -1,18 +1,19 @@
-database []
+database = []
 
 Kontakt1 = dict(First_Name= 'Pepa', Last_Name= 'Hermelin', Email= 'pepa.hermelin@email.cz')
 database.append(Kontakt1)
 
-First_Name2 = input str('Enter First_Name:')
-Last_Name2 = input str('Enter Last Name:')
-Email2 = input str('Enter Email:')
-if @ not in Email2:
+First_Name2 = input(str('Enter First_Name:'))
+Last_Name2 = input(str('Enter Last Name:'))
+Email2 = input (str('Enter Email:'))
+if "@" not in Email2:
     print("ERROR:Email must contain")
     # return
 else:
     Kontakt2 = {'First_Name' : First_Name2, 'Last_Name' : Last_Name2, 'Email' : Email2}
     database.append(Kontakt2)
 
-print(database[0]['First_Name'])
-print(database[1]['First_Name'])
+    print(database[0]['First_Name'])
+    print(database[1]['First_Name'])
 
+    print (database)
