@@ -1,6 +1,6 @@
 database = []
 
-Kontakt1 = dict(First_Name='Pepa', Last_Name= 'Hermelin', Email= 'pepa.hermelin@email.cz')
+Kontakt1 = dict(First_Name='Pepa', Last_Name='Hermelin', Email='pepa.hermelin@email.cz')
 database.append(Kontakt1)
 
 First_Name2 = input(str('Enter First_Name:'))
@@ -16,4 +16,4 @@ else:
     print(database[0]['First_Name'])
     print(database[1]['First_Name'])
 
-    print (database)
+    print(database)
