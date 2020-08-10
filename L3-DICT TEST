@@ -7,8 +7,8 @@ First_Name2 = input(str('Enter First_Name:'))
 Last_Name2 = input(str('Enter Last Name:'))
 Email2 = input (str('Enter Email:'))
 if "@" not in Email2:
-    print("ERROR:Email must contain")
-    # return
+    print("ERROR:Email must contain @, \n please enter correct email")
+    Email2 = input (str('Enter Email:'))
 else:
     Kontakt2 = {'First_Name' : First_Name2, 'Last_Name' : Last_Name2, 'Email' : Email2}
     database.append(Kontakt2)
