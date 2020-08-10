@@ -1,0 +1,4 @@
+d1 = dict()
+d2 = {}
+d3 = {'First_Name': 'John','Last_Name': 'Smith','Age':56}
+d4 = dict(First_Name= 'John',Last_Name= 'Smith',Age=56)
