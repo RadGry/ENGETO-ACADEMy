@@ -4,7 +4,7 @@ print('='*40)
 print('Welcome to DESTINADO,\nplace where people plan their trips')
 print('='*40)
 
-#Destination Cities + Prices
+# Destination Cities + Prices
 
 print('We can offer you following destinations:')
 print('-'*40)
@@ -17,7 +17,7 @@ print('''
     6 - Ostrava |   3400
 ''')
 
-#Destination Selection (check if there is a way to replace this with dictionary?)
+# Destination Selection (check if there is a way to replace this with dictionary?)
 
 selection = int(input('Please enter the number of the destination to select:'))
 
@@ -33,7 +33,7 @@ print('-'*40)
 print('In order to complete your reservations, please share few detaisl with us:')
 print('-'*40)
 
-### is it better to assign object types in separate section?
+# is it better to assign object types in separate section?
 # name = str()
 # last_name = str()
 # yob = int()
@@ -42,16 +42,15 @@ print('-'*40)
 
 
 name = input('NAME:  ')
-print('='*40)  #spacing
+print('='*40)  # spacing
 last_name = input('LAST NAME:  ')
-print('='*40)  #spacing
+print('='*40)  # spacing
 yob = input('YEAR OF BIRTH:  ')
-print('='*40)  #spacing
+print('='*40)  # spacing
 email = input('EMAIL:  ')
-print('='*40)  #spacing
+print('='*40)  # spacing
 password = input('PASSWORD:  ')
 
 print('Thank you ' + name)
 print('We confirm you reservation in ' + city_chosen)
 print('Your price is ' + price_chosen)
-
