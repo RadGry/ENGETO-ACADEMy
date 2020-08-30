@@ -41,17 +41,17 @@ print('-'*40)
 # password = str()
 
 
-name = (input('NAME:'))
+name = input('NAME:  ')
 print('='*40)  #spacing
-last_name = (input('LAST NAME:'))
+last_name = input('LAST NAME:  ')
 print('='*40)  #spacing
-yob = (input('YEAR OF BIRTH:'))
+yob = input('YEAR OF BIRTH:  ')
 print('='*40)  #spacing
-email = (input('EMAIL:'))
-print('='*40)  # spacing
-password = (input('PASSWORD:'))
+email = input('EMAIL:  ')
+print('='*40)  #spacing
+password = input('PASSWORD:  ')
 
-Print('Thank you 'name)
-Print('We confirm you reservation in 'city_chosen)
-Print('Your price is 'price_chosen)
+print('Thank you ' + name)
+print('We confirm you reservation in ' + city_chosen)
+print('Your price is ' + price_chosen)
 
