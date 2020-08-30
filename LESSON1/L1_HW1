@@ -37,7 +37,7 @@ print('-'*40)
 # name = str()
 # last_name = str()
 # yob = int()
-# email = int()
+# email = str()
 # password = str()
 
 
