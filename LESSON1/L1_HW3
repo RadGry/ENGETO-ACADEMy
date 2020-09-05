@@ -19,10 +19,10 @@ result_l_gal = l_amount*l_gal
 
 print(f'{kg_amount} kilograms is equal to{result_kg_lb} pounds.')
 print(f'{km_amount} kilometers is equal to {result_km_mile} miles.')
-print(f'{l_gal} liters is equal to {result_l_gal} gallons.')
+print(f'{l_amount} liters is equal to {result_l_gal} gallons.')
 print()
 
 # Final answers 2
 print(kg_amount, 'kilograms is equal to', result_kg_lb, 'pounds.')
 print(km_amount, 'kilometers is equal to', result_km_mile, 'miles.')
-print(l_gal, 'liters is equal to', result_l_gal, 'gallons.')
+print(l_amount, 'liters is equal to', result_l_gal, 'gallons.')
