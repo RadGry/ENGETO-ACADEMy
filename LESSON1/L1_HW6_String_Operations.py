@@ -4,6 +4,7 @@ name = str(input('Please enter you name:'))
 # Print name
 
 print("Saving '",name,"' into the name...")
+print("Saving" + " '" + name + "' " + "into name... ")
 
 # Save surname
 
@@ -11,6 +12,7 @@ surname = str(input('Please enter your surname:'))
 # Print surname
 
 print("Saving '",surname,"' into the surname...")
+print("Saving" + " '" + surname + "' " + "into surname... ")
 
 # Create and print variable full_name
 
