@@ -1,0 +1,9 @@
+number = int(input("Give a number to test if it is prime?"))
+
+for x in range(2, number):
+    if (number % x) == 0:
+        print('Your number is not prime')
+        break
+
+else:
+        print('Your number is prime')

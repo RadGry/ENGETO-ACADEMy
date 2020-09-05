@@ -1,0 +1,28 @@
+# Conversion rates
+kg_lb = 2.20
+km_mile = 0.62
+l_gal = 0.26
+
+# Amount of units for conversion.
+
+kg_amount = 80
+km_amount = 54
+l_amount = 5
+
+# Results
+
+result_kg_lb = kg_amount*kg_lb
+result_km_mile = km_amount*km_mile
+result_l_gal = l_amount*l_gal
+
+# Final answers 1 (using f')
+
+print(f'{kg_amount} kilograms is equal to{result_kg_lb} pounds.')
+print(f'{km_amount} kilometers is equal to {result_km_mile} miles.')
+print(f'{l_gal} liters is equal to {result_l_gal} gallons.')
+print()
+
+# Final answers 2
+print(kg_amount, 'kilograms is equal to', result_kg_lb, 'pounds.')
+print(km_amount, 'kilometers is equal to', result_km_mile, 'miles.')
+print(l_gal, 'liters is equal to', result_l_gal, 'gallons.')
