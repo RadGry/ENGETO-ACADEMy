@@ -1,0 +1,15 @@
+# Prices
+mercedes    = 150
+rolls_royce = '400'
+
+# Calculations
+two_mercedes = mercedes*2
+mercedes_RR = mercedes + int(rolls_royce)
+two_rolls_royce = int(rolls_royce)*2
+
+# Prints
+extra_cost = int(input('Please enter the price for extra equipment:'))
+print('The price for two Mercedes is', two_mercedes, 'thousand USD.')
+print('Price for Mercedes and Rolls_Royce is', mercedes_RR, 'thousand USD.')
+print('Price for two Rolls-Royce with extra equipment is', two_rolls_royce+extra_cost*2, 'thousand USD.')
+print('Price for one Mercedes with extra equipment is', mercedes+extra_cost, 'thousand USD.')
