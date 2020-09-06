@@ -13,11 +13,14 @@ print('Every third member is: ', employees[::3])
 
 # Save index
 
-print('Jacob is at the index: ', employees.index('Jacob'))
+jacob_index = employees.index('Jacob')
 
 # Jacob index
 
+print('Jacob is at the index: ', jacob_index)
 
 # Number of name Agnes
 
-print('Number of names Agnes in the the list candidates: ', employees.count('Agnes'))
+agnes_number = employees.count('Agnes')
+
+print('Number of names Agnes in the the list candidates: ', agnes_number)

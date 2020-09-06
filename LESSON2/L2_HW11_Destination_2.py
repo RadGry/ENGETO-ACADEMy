@@ -21,11 +21,11 @@ print('''
 
 selection = int(input('Please enter the number of the destination to select:'))
 
-DESTINATIONS = ['Prague', 'Wein', 'Brno', 'Svitavy', 'Zlin', 'Ostrava']
-PRICES = ['1000', '1100', '2000', '1500', '2300', '3400']
+city_list = ['Prague', 'Wein', 'Brno', 'Svitavy', 'Zlin', 'Ostrava']
+price_list = ['1000', '1100', '2000', '1500', '2300', '3400']
 
-city_chosen = DESTINATIONS[selection - 1]
-price_chosen = PRICES[selection - 1]
+city_chosen = city_list[selection-1]
+price_chosen = price_list[selection-1]
 
 print('='*40)
 print('REGISTRATION')
@@ -51,6 +51,31 @@ email = input('EMAIL:  ')
 print('='*40)  # spacing
 password = input('PASSWORD:  ')
 
-print('Thank you ' + name)
-print('We confirm you reservation in ' + city_chosen)
-print('Your price is ' + price_chosen)
+# Conditions
+from datetime import date
+current_date = date.today()
+age = current_date.year - int(yob)
+
+if age < 15:
+    print('You must be 15 years old to use our services')
+
+elif '@' not in email:
+    print('Email is not correct')
+
+elif len(password) < 8:
+    print('The password is the short. It needs to have 8 characters')
+
+elif ipassword.[0]:
+    print('The password can not start with number')
+
+elif is password.isnumeric[-1]:
+    print('The password can not end with number')
+
+elif password.isalpha() or password.isnumeric() or not password.isalnum():
+    print('Password need to contain letters and numbers')
+
+else:
+
+    print('Thank you ' + name)
+    print('We confirm you reservation in ' + city_chosen)
+    print('Your price is ' + price_chosen)
