@@ -4,7 +4,7 @@ candidates = []
 
 # Print candidates at the beginning
 
-print('Candidates at the beginning:', candidates)
+print('Candidates at the beginning:', str(candidates))
 
 # Create employees
 
@@ -12,7 +12,7 @@ employees = ['Francis', 'Ann', 'Jacob', 'Claire']
 
 # Print employees at the beginning
 
-print('Employees at the beginning:', employees)
+print('Employees at the beginning:', str(employees))
 
 # Add new candidates
 new_candidates = ['Bruno','Agnes']
@@ -30,4 +30,4 @@ employees.insert(1, candidates[0])
 
 # Print the employees list after entering a new name
 
-print('New names added to employees: ',employees)
+print('New names added to employees: ',str(employees))
