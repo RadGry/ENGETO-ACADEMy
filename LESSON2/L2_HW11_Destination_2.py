@@ -21,11 +21,18 @@ print('''
 
 selection = int(input('Please enter the number of the destination to select:'))
 
-city_list = ['Prague', 'Wein', 'Brno', 'Svitavy', 'Zlin', 'Ostrava']
-price_list = ['1000', '1100', '2000', '1500', '2300', '3400']
+DESTINATIONS = ['Prague', 'Wein', 'Brno', 'Svitavy', 'Zlin', 'Ostrava']
+PRICES = ['1000', '1100', '2000', '1500', '2300', '3400']
 
-city_chosen = city_list[selection-1]
-price_chosen = price_list[selection-1]
+destination_chosen = DESTINATIONS[selection - 1]
+price_chosen = PRICES[selection - 1]
+
+# zadani podmínky slevy
+
+if selection is 4 or 6:
+    print('Lucky you! You have just earned 25% discount for your destination - ' + destination_chosen)
+    price_chosen = price_chosen * 0,75
+
 
 print('='*40)
 print('REGISTRATION')
@@ -65,10 +72,10 @@ elif '@' not in email:
 elif len(password) < 8:
     print('The password is the short. It needs to have 8 characters')
 
-elif ipassword.[0]:
+elif password[0].isnumeric:
     print('The password can not start with number')
 
-elif is password.isnumeric[-1]:
+elif password[-1].isnumeric:
     print('The password can not end with number')
 
 elif password.isalpha() or password.isnumeric() or not password.isalnum():
@@ -77,5 +84,5 @@ elif password.isalpha() or password.isnumeric() or not password.isalnum():
 else:
 
     print('Thank you ' + name)
-    print('We confirm you reservation in ' + city_chosen)
+    print('We confirm you reservation in ' + destination_chosen)
     print('Your price is ' + price_chosen)
