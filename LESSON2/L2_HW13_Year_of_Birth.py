@@ -1,6 +1,6 @@
 # ask the user of age
 
-age = input(print('How old are you:'))
+age = int(input('How old are you:'))
 
 # calculate and print YOB
 
