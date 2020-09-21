@@ -1,12 +1,18 @@
-# input
+import math
 
-ax = int(input('Bod A - zadejte souřadnici X')
+AX = int(input('Bod A - zadejte souřadnici X: '))
 
-ay = int(input('Bod A - zařidte souřadnici Y')
+AY = int(input('Bod A - zadejte souřadnici Y: '))
 
-bx = int(input('Bod B - zadejte souřadnici X')
-by = int(input('Bod B - zadejte souřadnici Y')
+BX = int(input('Bod B - zadejte souřadnici X: '))
+
+BY = int(input('Bod B - zadejte souřadnici Y: '))
 
 # distance calculation
 
-distance = sqrt(abs((ax - bx)*(ay - by)))
+distance_fund = float((AX - BX)*(AY - BY))
+
+distance = round(math.sqrt(abs(distance_fund)), 2)
+
+print(distance_fund)
+print(distance)
